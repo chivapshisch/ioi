@@ -16,4 +16,5 @@ class New(APIView):
             serializer.save()
             return Response(serializer.data)
         error = ({'error': 'ERRRRR'})
+        print('ok')
         return Response(error)
