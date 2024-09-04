@@ -19,4 +19,8 @@ class Admin(APIView):
         error = ({'error': 'ERRRRR'})
         print('magagfаааааf11a')
         print('bool')
+        print("Трахни меня")
+        print(">[e]")
+        print("Теня")
+
         return Response(error)
