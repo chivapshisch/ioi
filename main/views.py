@@ -18,4 +18,5 @@ class Admin(APIView):
             return Response(serializer.data)
         error = ({'error': 'ERRRRR'})
         print('magagfаааааf11a')
+        print('bool')
         return Response(error)
