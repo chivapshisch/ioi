@@ -9,6 +9,7 @@ class New(APIView):
         resl = Cars.objects.all()
         serializer = CarsSerializer(resl, many = True)
         return Response(serializer.data)
+        print('stopper')
 
 class Admin(APIView):
     def post(self, request):
