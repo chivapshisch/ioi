@@ -17,5 +17,5 @@ class Admin(APIView):
             serializer.save()
             return Response(serializer.data)
         error = ({'error': 'ERRRRR'})
-        print('ok')
+        print('maga')
         return Response(error)
