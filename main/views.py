@@ -18,11 +18,6 @@ class Admin(APIView):
             serializer.save()
             return Response(serializer.data)
         error = ({'error': 'ERRRRR'})
-        print('magagfаааааf11a')
-        print('bool')
-        
-        print("да")
-        print("нет")
 
-        print("второе изменение")
+        print('stopper')
         return Response(error)
