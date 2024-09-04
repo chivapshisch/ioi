@@ -10,6 +10,7 @@ class New(APIView):
         serializer = CarsSerializer(resl, many = True)
         return Response(serializer.data)
 
+class Admin(APIView):
     def post(self, request):
         serializer = CarsSerializer(data = request.data)
         if serializer.is_valid():
